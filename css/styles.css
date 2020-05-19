@@ -1,0 +1,22 @@
+body{
+    background-color: whitesmoke;
+    color: whitesmoke;
+    background-image: url("./img/");
+    background-blend-mode: hard-light;
+    font-family: 'Romans';
+  }
+  
+  .title{
+    text-align: center;
+    background-color: black;
+    background-image: img("./img/");
+    margin-bottom: 0;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .title h1{
+    font-size: 70px;
+  }
+  
