@@ -4,9 +4,9 @@ body{
     background-image: url("./img/");
     background-blend-mode: hard-light;
     font-family: 'Romans';
-  }
+}
   
-  .title{
+.title{
     text-align: center;
     background-color: black;
     background-image: img("./img/");
@@ -14,9 +14,28 @@ body{
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
-  }
+}
   
-  .title h1{
+.title h1{
     font-size: 70px;
-  }
+}
   
+.pizza-word{
+    color:darkgrey;
+}
+
+.navigation ul{
+    background-color: whitesmoke;
+    overflow: hidden;
+    border-radius: 5px; 
+    font-weight: bolder;
+    margin: 0;
+}
+
+.navigation li{
+    color: black; 
+    width:30%;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+}
