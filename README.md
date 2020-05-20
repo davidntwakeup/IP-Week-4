@@ -3,7 +3,7 @@
 ### This is an online pizza delivery website, delivering a wide range of pizza toppings to people across the country 05/17/2020
 ### By Zahid Awadh
 #### Description
-PizzaHub is demo pizza delivery website built with HTML, CSS, JavaScript.
+PizzaHub is a demo pizza delivery website built with HTML, CSS, JavaScript.
 #### Instructions
 This is a website. Copy the URL and paste it in your browser or click on the link below.
 #### Link to live site
