@@ -1,37 +1,37 @@
 body{
-    background-color: grey;
-    color: whitesmoke;
-    background-image: url("./img/");
+    background-color: black;
+    color: yellow;
+    background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0729/2979/pizza_pattern2_shop_preview.png");
     background-blend-mode: hard-light;
-    font-family: 'Romans';
+    font-family: 'Lobster';
 }
-  
+
 .title{
     text-align: center;
     background-color: black;
-    background-image: img("./img/");
+    background-image: url("https://image.shutterstock.com/image-photo/tasty-pepperoni-pizza-cooking-ingredients-260nw-1114907849.jpg");
     margin-bottom: 0;
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
 }
-  
+
 .title h1{
     font-size: 70px;
 }
   
 .pizza-word{
-    color:darkgrey;
+    color:red;
 }
-
+  
 .navigation ul{
-    background-color: grey;
+    background-color: yellow;
     overflow: hidden;
     border-radius: 5px; 
     font-weight: bolder;
     margin: 0;
 }
-
+  
 .navigation li{
     color: black; 
     width:30%;
@@ -44,27 +44,27 @@ body{
     text-decoration: none;
     display: block;
     padding: 3%;
-    color: black;
+    color: red;
     border-radius: 5px;
 }
-
+  
 .navigation a:hover{
-    background-color: white;
+    background-color: rgb(247, 203, 81);
 }
-
+  
 .pizza-display{
     background-color: rgba(0, 0, 0, 0.6);
     padding: 2%;
-  }
+}
   
-  .pizza-display-image-main{
+.pizza-display-image-main{
     width: 100%;
     height: 300px;
     margin: 1%;
     object-fit: cover;
     border-radius: 2px;
-  }
-  
+}
+
 .pizza-display-image{
     width: 100%;
     height: 200px;
@@ -97,7 +97,7 @@ body{
     border-radius: 10px;
     font-weight: bold;
 }
-  
+
 .place-order:hover{
     cursor: pointer;
     background-color: rgba(247, 113, 80, 0.9);
@@ -110,4 +110,151 @@ body{
   
 .choose-pizza{
     cursor: pointer;
+}
+  
+.pizza-sections{
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3%;
+    font-family: 'Lobster';
+    border-left: 3px solid whitesmoke;
+    border-right: 3px solid whitesmoke;
+    border-radius: 2px;
+    
+}
+  
+.order{
+    z-index:1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 7% 0 7%;
+    padding: 2%;
+    height: 700px;
+    border-radius: 5px;
+    display: none;
+}
+  
+.close{
+    font-size: 80px;
+    color: yellow;
+    float: right;
+    opacity: 1;
+    margin: 1% 3% 1% 1%;
+}
+  
+.close:hover,
+.close:focus{
+    color: whitesmoke;
+    cursor: pointer;
+    opacity: 1;
+}
+  
+.order-sections{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2%;
+    border-radius: 5px;
+    margin: 0;
+}
+  
+.order-sections p{
+    color: seagreen;
+}
+
+.order-sections-header{
+    font-weight: bold;
+    font-family: 'Lobster';
+    color: white;
+    border-bottom: 4px solid;
+    border-top: 4px solid ;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+  
+.size-images{
+    width: 50%;
+}
+  
+#small-size{
+    margin: 50% 0 5% 0;
+}
+  
+#medium-size{
+    margin: 20% 0 5% 0;
+}
+  
+#large-size{
+    margin: 3% 0 5% 0;
+}
+  
+.custom-pizza{
+    text-align: center;
+}
+  
+.pizza-type{
+    color: seagreen;
+}
+  
+.crust-type{
+    color: rgb(238, 255, 0);
+}
+  
+.topping-type{
+    color: red;
+}
+  
+.pizza-quantity{
+    color: seagreen;
+    margin: 1% 0 1% 0;
+}
+  
+.delivery{
+    color: yellow;
+    margin: 1% 0 1% 0;
+}
+  
+.pizza-size{
+    color: red;
+    margin: 1% 0 1% 0;
+}
+  
+#order-placement{
+    width: 20%;
+    background-color: red;
+    color: yellow;
+    padding: 2%;
+    margin: 2%;
+    font-family: 'Lobster';
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+.menu-row{
+    margin-bottom: 3%;
+}
+  
+.menu-images{
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+  
+.menu-images:hover{
+    width: 100%;
+    height: 75%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+  
+.pizza-names{
+    padding: 2%;
+    border-bottom: whitesmoke 2px solid;
+    border-top: whitesmoke 2px solid;
+    margin: 2% 0 2% 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
 }
