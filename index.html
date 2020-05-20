@@ -96,6 +96,95 @@
                 <p class="pizza-names">Feta Spinach</p>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="order">
+          <span class="close">&times;</span>
+          <div class="order-sections">
+            <h3 class="order-sections-header">Size</h3>
+            <div class="row">
+              <div class="col-sm-3">
+                <img id="small-size" class="size-images" src="https://www.pngkit.com/png/full/781-7814051_big-image-png-clip-art-pizza-slice.png" alt="pizza size small">
+                <h4>Small</h4>
+                <p>300 Ksh</p>
+              </div>
+              <div class="col-sm-4">
+                <img id="medium-size" class="size-images" src="https://www.pngkit.com/png/full/781-7814051_big-image-png-clip-art-pizza-slice.png" alt="pizza size medium">
+                <h4>Medium</h4>
+                <p>600 Ksh</p>
+              </div>
+              <div class="col-sm-5">                
+                <img id="large-size" class="size-images" src="https://www.pngkit.com/png/full/781-7814051_big-image-png-clip-art-pizza-slice.png" alt="pizza size large">
+                <h4>Large</h4>
+                <p>850 Ksh</p>
+              </div>
+            </div>
+          </div>
+          <div class="order-sections">
+            <h3 class="order-sections-header">Pizza</h3>
+            <form class="custom-pizza">
+              <div class="row">
+                <div class="col-sm-4 pizza-type">
+                  <label for="pizza">Pizza Type</label>
+                  <select name="pizza-type" id="pizza-type" class="form-control">
+                    <option value="hawaiian">Hawaiian</option>
+                    <option value="pepperoni">Pepperoni</option>
+                    <option value="chicken-mushroom">Chicken Mushroom</option>
+                    <option value="margherita">Margherita</option>
+                    <option value="jalapeno">Jalapeno</option>
+                    <option value="bbq-beef">BBQ Beef</option>                
+                    <option value="bacon-mushroom">Bacon Mushroom</option>
+                    <option value="feta-spinach">Feta Spinach</option>
+                  </select>
+                </div>
+                <div class="col-sm-4 crust-type">
+                  <label for="crust">Crust</label>
+                  <select name="crust" id="crust-type" class="form-control">
+                    <option value="stuffed">Stuffed - 150 Ksh</option>
+                    <option value="thick">Thick - 100 Ksh</option>
+                    <option value="thin">Thin - 100 Ksh</option>
+                    <option value="gluten-free">Gluten Free - 200 Ksh</option>
+                  </select>
+                </div>
+                <div class="col-sm-4 topping-type">
+                  <label for="extra-toppings">Extra Toppings</label>
+                  <select name="extra-toppings" id="topping-type" class="form-control">
+                    <option value="ham">Ham</option>
+                    <option value="cheese">Cheese</option>
+                    <option value="olives">Olives</option>
+                    <option value="mushrooms">Mushrooms</option>
+                    <option value="bacon">Bacon</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 pizza-quantity">
+                  <label for="quantity">How many do you want?</label>
+                  <input type="number" class="form-control" id="pizza-quantity" min="1" required>
+                </div>
+                <div class="col-sm-4 delivery">
+                  <label for="delivery">Delivered(300 Ksh) or Collected?</label>                  
+                  <select name="delivery" class="form-control" id="delivery">
+                    <option value="delivered">Delivered</option>
+                    <option value="collected">Collected</option>
+                  </select>
+                </div>
+                <div class="col-sm-4 pizza-size">
+                  <label for="pizza-size">Size</label>
+                  <select class="form-control" id="pizza-size">
+                    <option value="large">Large</option>
+                    <option value="medium">Medium</option>
+                    <option value="small">Small</option>
+                  </select>
+                </div>
+              </div>
+              <input type="submit" id="order-placement" class="btn">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
